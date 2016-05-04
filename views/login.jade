@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/login.css')
+  body
+    header Login
+    form(method='post' action='/userdata')
+      input(type='text' name='email')
+      button(type='submit') Submit
